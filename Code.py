@@ -29,4 +29,4 @@ def generate_strong_password():
 
 password = input("Enter password to check: ")
 print("Strength:", check_strength(password))
-print("Suggested strong password:")
+print("Suggested strong password:"generate_strong_password())
